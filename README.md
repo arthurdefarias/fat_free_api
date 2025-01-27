@@ -13,7 +13,7 @@ O projeto é organizado nas seguintes diretórios e arquivos:
   - **__init__.py**: Arquivo de inicialização para o pacote fat_free_api.
   - **app.py**: Arquivo principal do aplicativo que contém a lógica da API.
   - **tests**: Diretório contendo arquivos de teste para o aplicativo.
-- **poetry.lock**: Arquivo de bloqueio do Poetry, especificando as versões exatas das dependências.
+- **poetry.lock**: Arquivo Poetry, especificando as versões exatas das dependências.
 - **pyproject.toml**: Arquivo de configuração do projeto, incluindo dependências e requisitos do sistema de build.
 
 ## Começando
@@ -21,7 +21,7 @@ Para começar com o projeto FAT FREE API, siga estas etapas:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seuusuario/fat_free_api.git
+   git clone https://github.com/arthurdefarias/fat_free_api.git
    cd fat_free_api
 
 2. **Instale as dependências**:
