@@ -1,12 +1,12 @@
 # FAT_FREE_API
 
 ## Descrição do Projeto
-FAT_FREE_API é um projeto em Python projetado para fornecer uma API leve e eficiente. A estrutura do projeto é organizada para facilitar o desenvolvimento, teste e implantação.
+FAT FREE API é um projeto que tem como objetivo o desenvolvimento de Serviço Web API para simular os cálculos realizados pelo software Fat Free.
 
 ## Estrutura do Projeto
 O projeto é organizado nas seguintes diretórios e arquivos:
 
-- **.pytest_cache**: Diretório para arquivos de cache do pytest.
+- **.pytest_cache**: Diretório para arquivos de cache do Pytest.
 - **.ruff_cache**: Diretório para arquivos de cache do Ruff.
 - **fat_free_api**: Diretório principal do aplicativo.
   - **__pycache__**: Diretório para arquivos Python compilados.
