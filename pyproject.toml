@@ -38,7 +38,7 @@ pre_format = 'ruff check --fix'
 format = 'ruff format'
 run = 'fastapi dev fat_free_api/app.py'
 pre_test = 'task lint'
-test = 'pytest -s -x --cov=fast_zero -vv'
+test = 'pytest -s -x --cov=fat_free_api -vv'
 post_test = 'coverage html'
 
 [build-system]
