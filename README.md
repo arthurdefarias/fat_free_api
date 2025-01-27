@@ -16,8 +16,8 @@ O projeto é organizado nas seguintes diretórios e arquivos:
 - **poetry.lock**: Arquivo Poetry, especificando as versões exatas das dependências.
 - **pyproject.toml**: Arquivo de configuração do projeto, incluindo dependências e requisitos do sistema de build.
 
-## Começando
-Para começar com o projeto FAT FREE API, siga estas etapas:
+## Execução
+Para conseguir executar a aplicação, siga estas etapas:
 
 1. **Clone o repositório**:
    ```bash
