@@ -12,7 +12,7 @@ O projeto é organizado nas seguintes diretórios e arquivos:
   - **__pycache__**: Diretório para arquivos Python compilados.
   - **__init__.py**: Arquivo de inicialização para o pacote fat_free_api.
   - **app.py**: Arquivo principal do aplicativo que contém a lógica da API.
-  - **tests**: Diretório contendo arquivos de teste para o aplicativo.
+- **tests**: Diretório contendo arquivos de teste para o aplicativo.
 - **poetry.lock**: Arquivo Poetry, especificando as versões exatas das dependências.
 - **pyproject.toml**: Arquivo de configuração do projeto, incluindo dependências e requisitos do sistema de build.
 
