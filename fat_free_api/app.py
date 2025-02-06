@@ -39,7 +39,7 @@ def calculate_axial_force(user: VariablesAxialForce):
         effective_lag_tension
         - (internal_pressure * cross_sectional_area)
         * (1 - 2 * poisson_coefficient)
-        + (temperature_difference * temperature_coefficient * young_modulus)
+        - (temperature_difference * temperature_coefficient * young_modulus)
     )
 
     # Criando o objeto de resposta
