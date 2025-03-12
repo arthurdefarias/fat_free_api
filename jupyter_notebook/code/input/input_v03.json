@@ -1,0 +1,27 @@
+{
+    "Project" : "V03",
+    "E[N/m^2]" : 207000000000,
+    "alfa_t" : 0.000017,
+    "v_steel:" : 0.3,
+    "p_water[kg/m^3]" : 1027,
+    "p_steel[kg/m^3]" :7850,
+    "p_concrete[kg/m^3]" : 1800,
+    "p_coating[kg/m^3]" : 935, 
+    "p_content[kg/m^3]" : 200,
+    "Ds[m]" : 0.3228,
+    "t_steel[m]" : 0.0150,
+    "t_concrete[m]" : null,
+    "t_coating[m]": 0.0030,
+    "Heff[N]" : 90000,
+    "p[bar]" : 124.54,
+    "delta_t" :  0.02062,
+    "L[m]" : 40,
+    "e[m]" : 0.88,
+    "kc" : 0.25,
+    "fcn" : 42,
+    "user_defined_soil" : true,
+    "kv" : 13300000,
+    "kl" : 10000000,
+    "kvs" : 250000
+
+}

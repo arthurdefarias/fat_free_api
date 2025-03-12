@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = {extras = ["standard"], version = "^0.115.7"}
+hvplot = "^0.11.2"
+pandas = "^2.2.3"
 
 
 [tool.poetry.group.dev.dependencies]
