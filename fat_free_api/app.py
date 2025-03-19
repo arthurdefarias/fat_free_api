@@ -48,11 +48,11 @@ def calculate_fatfree(user: InputFatFree):
            'kl[Mpa]' : fatfree_output_dic['Kl'],
            'kvs[Mpa]': fatfree_output_dic['Kvs'],
            
-           'EI_steel' : fatfree_output_dic['EI_steel'],
-           'me' : fatfree_output_dic['me'],
-           'q' : fatfree_output_dic['q'],
+           'EI_steel[N.m^2]' : fatfree_output_dic['EI_steel'],
+           'me[kg/m]' : fatfree_output_dic['me'],
+           'q[N/m]' : fatfree_output_dic['q'],
            'CSF' : fatfree_output_dic['CSF'],
-           'Seff' : fatfree_output_dic['Seff'],
+           'Seff[N]' : fatfree_output_dic['Seff'],
            'ds/d' : fatfree_output_dic['ds/d'],
 
            'Ai[m^2]' : fatfree_output_dic['Ai'],

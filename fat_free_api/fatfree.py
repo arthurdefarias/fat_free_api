@@ -65,9 +65,9 @@ class FatFree:
 
         # Escolha das propriedades do solo
         self.user_defined = data['user_defined_soil']
-        self.kv = data['kv']
-        self.kl = data['kl']
-        self.kvs = data['kvs']
+        self.kv = data['kv[kN/m/m]']
+        self.kl = data['kl[kN/m/m]']
+        self.kvs = data['kvs[kN/m/m]']
 
     def calculate(self):
         mass_effetive, coefficient_mass_added, area_steel_pipe, area_coating_pipe, area_concrete_pipe, diameter_outer_concrete, diameter_intern_concrete, mass_structure_pipe, mass_content, mass_water_displaced = self.mass_effetive()

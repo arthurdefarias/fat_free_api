@@ -27,9 +27,9 @@ class InputFatFree(BaseModel):
     kc: float = Field(..., alias='kc')
     fcn: float = Field(..., alias='fcn[Mpa]')
     user_defined_soil: bool = Field(..., alias='user_defined_soil')
-    kv: float = Field(..., alias='kv')
-    kl: float = Field(..., alias='kl')
-    kvs: float = Field(..., alias='kvs')
+    kv: float = Field(..., alias='kv[kN/m/m]')
+    kl: float = Field(..., alias='kl[kN/m/m]')
+    kvs: float = Field(..., alias='kvs[kN/m/m]')
 
 
 class OutputFatFree(InputFatFree):
@@ -44,15 +44,15 @@ class OutputFatFree(InputFatFree):
     deflection_per_diameter_outer: float = Field(..., alias='deflection/diameter_outer')
     seff_per_pe: float = Field(..., alias='Seff/Pe')
 
-    kv_calculated: float = Field(..., alias='kv[Mpa]')
-    kl_calculated: float = Field(..., alias='kl[Mpa]')
-    kvs_calculated: float = Field(..., alias='kvs[Mpa]')
+    kv_calculated: float = Field(..., alias='kv[kN/m/m]')
+    kl_calculated: float = Field(..., alias='kl[kN/m/m]')
+    kvs_calculated: float = Field(..., alias='kvs[kN/m/m]')
 
-    EI_steel: float = Field(..., alias='EI_steel')
-    me: float = Field(..., alias='me')
-    q: float = Field(..., alias='q')
+    EI_steel: float = Field(..., alias='EI_steel[N.m^2]')
+    me: float = Field(..., alias='me[kg/m]')
+    q: float = Field(..., alias='q[N/m]')
     CSF: float = Field(..., alias='CSF')
-    seff: float = Field(..., alias='Seff')
+    seff: float = Field(..., alias='Seff[N]')
     ds_per_d: float = Field(..., alias='ds/d')
 
     area_intern: float = Field(..., alias='Ai[m^2]')
